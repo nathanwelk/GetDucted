@@ -1,3 +1,8 @@
 Temp/
 Logs/
 obj/Debug
+Library/
+Packages/
+ProjectSettings/
+*.csproj
+Get Ducted.sln
