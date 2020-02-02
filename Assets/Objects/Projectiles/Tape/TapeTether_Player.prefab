@@ -147,7 +147,7 @@ MonoBehaviour:
   speed: 1
   player: {fileID: 0}
   direction: {x: 0, y: 0}
-  tetherPullStrength: 2
+  tetherPullStrength: 100
   maxLife: 0.7
 --- !u!120 &1899585524282124644
 LineRenderer:

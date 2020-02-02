@@ -39,7 +39,10 @@ public class LazerTerminal : DoorLock {
                 closeScene();
             }
         } else {
-            if ((player.transform.position - transform.position).magnitude < proximity && Input.GetKeyDown(KeyCode.E)) {
+            Vector2 playerpos = player.transform.position;
+            Vector2 objPos = transform.position;
+
+            if ((playerpos - objPos).magnitude < proximity && Input.GetKeyDown(KeyCode.E)) {
                 openScene();
             }
         }

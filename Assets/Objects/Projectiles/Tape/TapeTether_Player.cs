@@ -74,15 +74,11 @@ public class TapeTether_Player : MonoBehaviour
 
                 float scaledTetherStrength = tetherPullStrength * Mathf.Abs(tetherMaxLength - Vector3.Distance(player.transform.position, transform.position)) / tetherMaxLength + 1;
                 scaledTetherStrength = Mathf.Clamp(scaledTetherStrength, 0, 8000);
-                Debug.Log(tetherCollision);
-                Debug.Log(tetherCollision.gameObject);
-                Debug.Log(tetherCollision.gameObject.GetComponent<Rigidbody2D>());
 
-                Debug.Log(tetherCollision);
-
-                tetherCollision.gameObject.GetComponent<Rigidbody2D>().AddForceAtPosition(
-                    ( player.transform.position - transform.position ).normalized * Mathf.Pow(2, scaledTetherStrength), transform.position);
-
+                if (tetherCollision.gameObject.GetComponent<Rigidbody2D>()) {
+                    tetherCollision.gameObject.GetComponent<Rigidbody2D>().AddForceAtPosition(
+                        ( player.transform.position - transform.position ).normalized * Mathf.Pow(2, scaledTetherStrength) * Time.deltaTime, transform.position);
+                }
 
             }
             

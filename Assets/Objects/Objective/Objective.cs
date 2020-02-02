@@ -37,7 +37,10 @@ public class Objective : MonoBehaviour
     }
 
     void checkPlayerProximity() {
-        if ((player.transform.position - transform.position).magnitude < proximity && Input.GetKey(interactKey)) {
+        Vector2 playerpos = player.transform.position;
+        Vector2 objPos = transform.position;
+
+        if ((playerpos - objPos).magnitude < proximity && Input.GetKey(interactKey)) {
             if (interactStartTime == 0) interactStartTime = Time.time;
 
             objectiveManager.setProgressBarValue((int)Mathf.Round((Time.time - interactStartTime) / interactDuration * 100));

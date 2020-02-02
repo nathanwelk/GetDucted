@@ -1,19 +1,13 @@
 ﻿<Properties StartupConfiguration="{84E0CF56-5284-E31C-7EF5-5516538B276A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AstarPathfindingProject/Core/AstarPath.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Objects/Dialogue/DialogueContainer.cs">
     <Files>
-      <File FileName="Assets/Puzzles/PressurePlate/PressurePlate.cs" Line="19" Column="35" />
-      <File FileName="Assets/AstarPathfindingProject/Core/AstarPath.cs" Line="837" Column="7" />
+      <File FileName="Assets/Objects/Objective/Objective.cs" Line="42" Column="1" />
+      <File FileName="Assets/Puzzles/Mirrors/LazerTerminal.cs" Line="47" Column="14" />
+      <File FileName="Assets/Puzzles/TimedDoor/Button/Button.cs" Line="38" Column="45" />
+      <File FileName="Assets/Objects/Dialogue/DialogueContainer.cs" Line="40" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Get Ducted" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="Get Ducted" expanded="True" selected="True" />
         </State>
@@ -22,7 +16,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fcc6dbb-167d-4d02-8790-81c5537db56a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="108a5c4f-59cd-4d74-a3ba-b20d211cb8d6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

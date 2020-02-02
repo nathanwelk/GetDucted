@@ -40,7 +40,9 @@ public class Spawner : MonoBehaviour {
                 lastSpawn = Time.time;
 
                 Vector3 spawnPos = transform.position + transform.up;
-                spawnedItems.Add(Instantiate(spawnItem, spawnPos, Quaternion.identity));
+                Transform obj = Instantiate(spawnItem, spawnPos, Quaternion.identity);
+                obj.transform.localPosition = obj.transform.localPosition - new Vector3(0,0,0.001f);
+                spawnedItems.Add(obj);
                 currentlySpawned++;
             }
         }

@@ -15,9 +15,12 @@ public class Key : MonoBehaviour {
     }
 
     void checkPlayerProximity() {
-        if ((player.transform.position - this.transform.position).magnitude < this.proximity) {
-                KeyInventory inv = this.player.GetComponent<KeyInventory>();
-                this.pickupKey(inv);
+        Vector2 playerpos = player.transform.position;
+        Vector2 objPos = transform.position;
+
+        if ((playerpos - objPos).magnitude < proximity) {
+            KeyInventory inv = this.player.GetComponent<KeyInventory>();
+            this.pickupKey(inv);
         }
     }
 

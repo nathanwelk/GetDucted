@@ -34,7 +34,10 @@ public class Button : DoorLock {
     }
 
     void checkPlayerProximity() {
-        if ((player.transform.position - transform.position).magnitude < proximity) {
+        Vector2 playerpos = player.transform.position;
+        Vector2 objPos = transform.position;
+
+        if ((playerpos - objPos).magnitude < proximity) {
             checkInput();
         }
     }
