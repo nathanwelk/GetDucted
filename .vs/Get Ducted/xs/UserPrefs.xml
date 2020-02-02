@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{84E0CF56-5284-E31C-7EF5-5516538B276A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AstarPathfindingProject/Core/AstarPath.cs">
+    <Files>
+      <File FileName="Assets/Puzzles/PressurePlate/PressurePlate.cs" Line="19" Column="35" />
+      <File FileName="Assets/AstarPathfindingProject/Core/AstarPath.cs" Line="837" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Get Ducted" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Get Ducted" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fcc6dbb-167d-4d02-8790-81c5537db56a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
